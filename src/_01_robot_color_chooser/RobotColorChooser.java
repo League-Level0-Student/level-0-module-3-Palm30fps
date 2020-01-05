@@ -15,9 +15,9 @@ public class RobotColorChooser {
 		//1. Create a new Robot
 			
 		Robot Color = new Robot();
-		//3. Ask the user what color they would like the robot to draw
+		
 	String ask = JOptionPane.showInputDialog("What colour would you like to draw in? ");
-		//5. Use an if/else statement to set the pen color that the user requested
+		
 if (ask.equals ("Blue")) {
 	Color.setPenColor(0, 0, 255);
 }	
